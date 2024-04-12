@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://hudsonty.github.io/Combat-Reloaded-2/styles.css">
+    <link rel="manifest" href="https://hudsonty.github.io/Combat-Reloaded-2/manifest.json">
+    <style>
+        @media screen and (min-aspect-ratio: 1280/720) {
+            #application-canvas.fill-mode-KEEP_ASPECT {
+                width: auto;
+                height: 100%;
+                margin: 0 auto;
+            }
+        }
+    </style>
+    <title>Combat Reloaded 2</title>
+    <script src="https://game-cdn.poki.com/scripts/v2/poki-sdk.js"></script>
+    <script src="https://game-cdn.poki.com/scripts/4e2026c43e966a0a32970e2a10bd9831250e590e/poki-sdk-hoist-4e2026c43e966a0a32970e2a10bd9831250e590e.js" type="text/javascript" crossorigin="anonymous"></script>
+    <script src="https://hudsonty.github.io/Combat-Reloaded-2/playcanvas-stable.min.js"></script>
+    <script src="https://hudsonty.github.io/Combat-Reloaded-2/__settings__.js"></script>
+    <script async="" src="https://hudsonty.github.io/Combat-Reloaded-2/ammo.wasm.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+        body {
+            background-color: #272A2C;
+        }
+
+        /* Styles for application splash screen */
+        #application-splash-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #272A2C;
+        }
+
+        #application-splash {
+            position: absolute;
+            top: calc(50% - 62px);
+            width: 264px;
+            left: calc(50% - 132px);
+        }
+
+        #application-splash img {
+            width: 100%;
+        }
+
+        /* Styles for progress bar */
+        #progress-bar-container {
+            margin: 20px auto 0 auto;
+            height: 2px;
+            width: 100%;
+            background-color: #141C1E;
+        }
+
+        #progress-bar {
+            width: 0%;
+            height: 100%;
+            background-color: #f60;
+        }
+
+        /* Responsive styles for small screens */
+        @media (max-width: 480px) {
+            #application-splash {
+                width: 170px;
+                left: calc(50% - 85px);
+            }
+        }
+    </style>
+    <script src="https://hudsonty.github.io/Combat-Reloaded-2/__game-scripts.js"></script>
+</head>
+<body>
+    <script src="https://hudsonty.github.io/Combat-Reloaded-2/__modules__.js"></script>
+    <script src="https://hudsonty.github.io/Combat-Reloaded-2/__start__.js"></script>
+    <canvas id="application-canvas" tabindex="0" width="640" height="360" style="width: 640px; height: 360px;" class="fill-mode-FILL_WINDOW"></canvas>
+    <script src="https://hudsonty.github.io/Combat-Reloaded-2/__loading__.js"></script>
+
+    <!-- Chat input fields and other elements -->
+</body>
+</html>
